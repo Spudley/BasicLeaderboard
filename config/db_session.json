@@ -1,0 +1,9 @@
+{
+    "type":"Session",
+    "db":"",
+    "username":"",
+    "password":"",
+    "host":"",
+    "comment":"Copy the contents of this file to db.json to use session-based storage instead of a DB."
+}
+

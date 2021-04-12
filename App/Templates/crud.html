@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Basic Leaderboard</title>
+</head>
+<body>
+
+<h2>Leaderboard Data Management (Create/Update/Delete: "CRUD")</h2>
+
+<div id="newRecordForm">
+<h4>Create a new record:</h4>
+<label>Username:</label><input id="c_username">
+<label>Score:</label><input id="c_score" type="number">
+<button id="btn_create" class="btn">Create</button>
+</div>
+
+<hr>
+
+<div id="editRecordForm">
+<h4>Edit an existing record:</h4>
+<label>Username:</label><input id="u_username">
+<label>Score:</label><input id="u_score" type="number">
+<button id="btn_update" class="btn">Edit</button>
+</div>
+
+<hr>
+
+<div id="deleteRecordForm">
+<h4>Delete an existing record:</h4>
+<label>Username:</label><input id="d_username">
+<button id="btn_remove" class="btn">Delete</button>
+</div>
+
+<script src="leaderboard.js"></script>
+</body>
+</html>
+

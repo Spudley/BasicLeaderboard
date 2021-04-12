@@ -1,0 +1,10 @@
+{
+    "/api/entry": {"controller": "Entry", "method": "%REQUEST_METHOD"},
+    "/api/listEntries": {"controller": "ListEntries", "method": "%REQUEST_METHOD"},
+    "/api/countEntries": {"controller": "CountEntries", "method": "%REQUEST_METHOD"},
+    "/api/averageScore": {"controller": "AverageScore", "method": "%REQUEST_METHOD"},
+    "/api/topScores": {"controller": "TopScores", "method": "%REQUEST_METHOD"},
+    "/leaderboard": {"template": "home.html"},
+    "/crud": {"template": "crud.html"}
+}
+

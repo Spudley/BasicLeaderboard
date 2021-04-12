@@ -1,0 +1,8 @@
+{
+    "type":"MySql",
+    "db":"leaderboard",
+    "username":"root",
+    "password":"40GoldenAwning",
+    "host":"localhost"
+}
+
